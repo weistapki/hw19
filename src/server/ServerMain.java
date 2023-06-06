@@ -25,7 +25,6 @@ public class ServerMain {
                     printWriter.println("Що таке паляниця?");
                     message = bufferedReader.readLine();
                     if (message.equalsIgnoreCase("хлеб")) {
-                        // Отправка текущей даты и времени
                         LocalDateTime now = LocalDateTime.now();
                         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
                         String formattedDateTime = now.format(formatter);
