@@ -42,7 +42,6 @@ public class ServerMain {
             System.out.println("Error when trying to listen/accept connections or read input");
             e.printStackTrace();
         }
-
     }
     private static boolean containsRussianLetters(String text) {
         return text.matches(".*[а-яА-Я].*");
